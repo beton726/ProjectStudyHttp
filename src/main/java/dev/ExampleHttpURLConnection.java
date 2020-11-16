@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class One {
+public class ExampleHttpURLConnection {
     public static void main(String[] args) throws InterruptedException, IOException {
 
         String request = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><ns:Request xmlns:ns=\"http://www.tempuri.org/types\"><Version>V1.1</Version><Address><Apartment>50</Apartment><House>7</House><Street>Sadovaya</Street><City>SPB</City><Country>Russia</Country><Index>123456</Index></Address></ns:Request>";
